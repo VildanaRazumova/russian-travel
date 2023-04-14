@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;  
+  line-height: 16px;
   padding: 0 48px 24px;
   color: #FFFFFF;
   text-decoration: none;
@@ -25,7 +25,7 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .footer {
      max-width: 720px;
-     line-height: 18px;  
+     line-height: 18px;
      padding: 0 24px 24px;
 
   }
