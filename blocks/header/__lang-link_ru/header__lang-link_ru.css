@@ -1,0 +1,13 @@
+.header__lang-link_ru {
+    margin-right: 18px;
+    transition: 0.4s;
+   
+  
+}
+
+.header__lang-link_ru:hover {
+    opacity: 0.5; /* при наведении ссылка станет немного прозрачной */
+
+
+}
+

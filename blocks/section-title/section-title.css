@@ -1,0 +1,24 @@
+.section-title {
+max-width: 720px;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+margin: auto;
+text-align: center;
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .section-title {
+        min-width: 288px;
+        min-height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+      
+        
+  
+    }
+  }

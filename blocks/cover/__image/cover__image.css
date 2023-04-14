@@ -1,0 +1,67 @@
+.cover__image {
+  background-image:  url(../../../images/cover/cover-trains.jpg);
+  width: 100%;
+  height: 740px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+
+
+}
+
+/* Для налождения overlay image*/
+
+.cover__image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  
+}
+
+
+.cover__image:hover:before {
+  opacity: 0.8;
+
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cover__image {
+     height: 640px;
+
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .cover__image {
+     height: 480px;
+     
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .cover__image {
+     height: 200px;
+     
+
+  }
+}
+
+
+
+
+
