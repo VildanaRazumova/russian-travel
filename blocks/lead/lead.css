@@ -2,7 +2,8 @@
     margin: 56px auto 0;
     color: #FFFFFF;
     max-width: 984px;
-    max-height: 1005px;
+    width: calc(100vw-296px);
+    
 
 }
 
@@ -12,6 +13,7 @@
     .lead {
         margin: 48px auto 32px;
         max-width: 928px;
+        width: calc(100vw-48px);
        
 
     }
@@ -22,6 +24,7 @@
     .lead {
         max-width: 768px;
         margin: 48px auto 0;
+       
 
     }
 }

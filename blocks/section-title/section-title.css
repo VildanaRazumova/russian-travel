@@ -1,5 +1,6 @@
 .section-title {
 max-width: 720px;
+width: calc(100vw-560px);
 font-style: normal;
 font-weight: 900;
 font-size: 96px;
@@ -11,9 +12,27 @@ text-align: center;
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .section-title {
+        width: calc(100vw-304px);
+
+    }
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .section-title {
+        min-width: 288px;
+        width: calc(100vw-48px);
+
+    }
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 425px) {
     .section-title {
         min-width: 288px;
+        width: calc(100vw-32px);
         min-height: 88px;
         font-size: 40px;
         line-height: 44px;

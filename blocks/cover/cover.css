@@ -1,12 +1,10 @@
 .cover {
-  max-width: 100%;
+  max-width: 100vw;
   max-height: 740px;
   margin: 0 48px 92px;
   box-sizing: border-box;
 
  
-  
-
 
   
 }
