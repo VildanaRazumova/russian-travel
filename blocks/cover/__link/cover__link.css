@@ -1,17 +1,68 @@
 .cover__link {
+    background-image: url(../../../images/cover/cover-trains.jpg);
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 
 
-    
 
-    
+
 
 
 }
 
 
 
+/* Для налождения overlay image*/
 
+.cover__link::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+
+}
+
+
+.cover__link:hover:before {
+    opacity: 0.8;
+
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        max-width: 1024px;
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        max-width: 768px;
+
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__link {
+        max-width: 320px;
+        min-height: 200px;
+
+
+    }
+}

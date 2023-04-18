@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/font.css);
+@import url(../vendor/fonts/fonts.css);
 
 /*Page*/
 @import url(../blocks/page/page.css);
@@ -7,14 +7,11 @@
 /*Body*/
 @import url(../blocks/root/root.css);
 
-/* Logo*/
-@import url(../blocks/logo/logo_header.css);
-
 /* Header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link_en/header__lang-link_en.css);
-@import url(../blocks/header/__lang-link_ru/header__lang-link_ru.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link_active/header__lang-link_active.css);
 
 /* Content*/
@@ -37,10 +34,10 @@
 @import url(../blocks/intro/__list-number/intro__list-number.css);
 
 
+
 /* footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__elements/footer__elements.css);
 @import url(../blocks/footer/__element-link/footer__element-link.css);
 @import url(../blocks/footer/__element-links/footer__element-links.css);
 
@@ -72,5 +69,4 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__image/cover__image.css);
 

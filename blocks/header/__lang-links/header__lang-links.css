@@ -1,0 +1,16 @@
+.header__lang-links {
+  display: flex;
+  align-items: end;
+  
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .header__lang-links {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+}
