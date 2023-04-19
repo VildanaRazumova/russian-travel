@@ -1,6 +1,5 @@
 .footer__element-links {
   display: flex;
-
 }
 
 
@@ -10,9 +9,5 @@
   .footer__element-links {
     flex-direction: column;
     justify-self: space-between;
-
-
-
-
   }
 }

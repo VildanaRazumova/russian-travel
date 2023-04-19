@@ -8,17 +8,11 @@
   color: #FFFFFF;
   margin: 40px 0 0;
   padding-bottom: 33px;
-
-
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
     max-width: 720px;
-
-
-
-
   }
 }
 
@@ -28,8 +22,5 @@
     max-width: 288px;
     margin: 40px 0 34px;
     padding: 0;
-
-
-
   }
 }
