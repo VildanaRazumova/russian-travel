@@ -1,7 +1,6 @@
 .place {
     display: grid;
     grid-column: 2;
-    grid-template-rows: repeat(auto-fit, auto);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
