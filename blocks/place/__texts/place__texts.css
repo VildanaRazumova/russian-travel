@@ -2,9 +2,6 @@
   grid-column: 2;
   grid-row: 3;
   margin: 48px 0 0 40px;
-  max-width: 484px;
-  
-  
 
 
 }
@@ -13,32 +10,27 @@
 @media screen and (max-width: 1024px) {
   .place__texts {
     margin-left: 32px;
-    max-width: 456px;
-
-
+    
 
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__texts {
-    margin: 48px 24px 0 28px;
-    max-width: 352px;
-
+    margin: 48px 0 0 28px;
+    
+    
   }
 
 }
 
 
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 700px) {
   .place__texts {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 5;  
     margin: 32px 16px 0;
-    max-width: 288px;
-   
-
-
-
+    
   }
 }

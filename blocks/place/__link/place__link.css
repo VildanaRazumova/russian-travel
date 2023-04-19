@@ -18,7 +18,7 @@
 
 }
 
-@media screen  and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__link {
     margin-left: 32px;
 
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .place__link {
     margin: 0 0 0 16px;
 

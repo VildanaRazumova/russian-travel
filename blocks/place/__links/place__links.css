@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .place__links {
         grid-column: 1;
         max-width: 288px;
