@@ -18,6 +18,7 @@
     max-width: 720px;
     margin: 88px auto 88px;
     width: calc(100vw - 48px);
+    justify-content: center;
   }
 }
 
