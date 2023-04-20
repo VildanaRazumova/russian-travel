@@ -1,5 +1,4 @@
 .photo-grid {
-  width: calc(100%-96px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
@@ -25,7 +24,6 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
     padding: 0 24px 0;
-    width: calc(100%-48px);
   }
 }
 
@@ -37,6 +35,5 @@
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
     padding: 0 16px 0;
-    width: calc(100%-32px);
   }
 }
